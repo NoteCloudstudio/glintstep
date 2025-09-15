@@ -1,0 +1,6 @@
+D:\glintstep
+├── assets/       ← 이미지, 아이콘, 폰트 등
+├── music/        ← 자동연주용 악보 JSON
+├── data/         ← 설정값, 사용자 정보
+├── components/   ← JS 기능 모듈
+└── docs/         ← 문서, 기획안, 계획서
