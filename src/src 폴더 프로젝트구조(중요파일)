@@ -1,0 +1,11 @@
+src/
+ ├─ components/
+ │   ├─ Navbar.tsx
+ │   └─ AuthModal.tsx
+ ├─ pages/
+ │   ├─ Home.tsx
+ │   ├─ Chat.tsx
+ │   └─ Settings.tsx
+ ├─ App.tsx
+ └─ main.tsx
+ 

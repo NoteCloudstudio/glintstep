@@ -1,0 +1,6 @@
+src/
+ ┗ modules/
+    ┗ chat/
+       ┣ chatService.ts
+       ┗ chatTypes.ts
+       

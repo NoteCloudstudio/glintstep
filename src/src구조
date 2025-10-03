@@ -1,0 +1,30 @@
+src/
+ ┣ components/     # 재사용 UI 컴포넌트
+ ┣ pages/          # 라우팅되는 페이지
+ ┣ modules/        # 기능 단위 모듈
+ ┃ ┣ auth/         # 로그인/회원가입 관련
+ ┃ ┣ chat/         # 채팅 기능 관련
+ ┃ ┗ profile/      # 사용자 프로필 관련
+ ┣ utils/          # 공용 유틸 함수
+ ┣ hooks/          # 커스텀 훅
+ ┗ assets/         # 이미지, 아이콘, 폰트 등
+
+ # 기본 폴더 구조
+mkdir src\modules
+mkdir src\components
+mkdir src\utils
+mkdir src\hooks
+mkdir src\assets
+mkdir src\pages
+
+# 페이지 파일 생성
+ni src\pages\Home.tsx -ItemType File
+ni src\pages\Settings.tsx -ItemType File
+ni src\pages\Help.tsx -ItemType File
+
+# 모듈 예시 (auth 모듈)
+mkdir src\modules\auth
+ni src\modules\auth\authService.ts -ItemType File
+ni src\modules\auth\authTypes.ts -ItemType File
+
+

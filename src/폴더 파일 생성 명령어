@@ -1,0 +1,40 @@
+# src 폴더 안에 pages 폴더 만들기
+mkdir src\pages
+
+# 각 페이지 파일 생성
+ni src\pages\Home.tsx -ItemType File
+ni src\pages\Settings.tsx -ItemType File
+ni src\pages\Help.tsx -ItemType File
+# 프로젝트 루트(D:\glintstep)에서 실행
+
+# Tailwind 설정 파일
+ni tailwind.config.js -ItemType File
+
+# PostCSS 설정 파일
+ni postcss.config.js -ItemType File
+
+확장자 찾기
+.\node_modules\.bin\tailwindcss.cmd init -p
+Tailwind 실행 파일 확인 (PowerShell 방식)
+Get-ChildItem .\node_modules\.bin\ | Select-String tailwind
+
+# src 안에 주요 폴더 생성(프로젝트 기본 구조 폴더 생성)
+mkdir src\pages
+mkdir src\components
+mkdir src\utils
+mkdir src\hooks
+mkdir src\assets
+
+# 페이지 폴더와 파일
+mkdir src\pages
+ni src\pages\Home.tsx -ItemType File
+ni src\pages\Settings.tsx -ItemType File
+ni src\pages\Help.tsx -ItemType File
+
+# 컴포넌트 폴더
+mkdir src\components
+
+# 유틸리티, 훅, 에셋 폴더
+mkdir src\utils
+mkdir src\hooks
+mkdir src\assets
