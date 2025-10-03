@@ -1,4 +1,4 @@
-export default function LoginModal() {
+export default function minigame() {
   return (
     <section>
       <h2>🔐 로그인</h2>

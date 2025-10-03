@@ -2,4 +2,4 @@
 - 페이지가 열리면 getMessages()로 기존 메시지를 불러옴
 - 입력창에 글을 쓰고 보내기 버튼을 누르면 sendMessage("나", input) 실행
 - 새 메시지가 messages 배열에 추가되고 화면에 즉시 반영됨
-- chatService.ts 안의 가짜 데이터(관리자: 안녕하세요 👋)도 같이 표시됨
+- chatService.ts 안의(관리자: 안녕하세요 👋)도 같이 표시됨
